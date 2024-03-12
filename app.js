@@ -14,6 +14,7 @@ restart.addEventListener("click",()=>{
     userScoreBoard.innerText=userScore
     compScoreBoard.innerText=compScore
     scoreBoard.innerText="Play Your Move"
+    scoreBoard.style.backgroundColor=black
 })
 
 // const restartGame=()=>{
