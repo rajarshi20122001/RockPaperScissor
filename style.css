@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color: aliceblue;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choice{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    /* opacity: 0.5; */
+    cursor: pointer;
+    background-color: black;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 5rem;
+    margin-top: 25px;
+}
+#comp-score,
+#user-score{
+    font-size: 5rem;
+}
+.msg-container{
+    margin-top: 3rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+#msg{
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: aliceblue;
+    display: inline;
+    padding: 12px;
+    border-radius: 25px;
+}
+.restart{
+    margin-top: 3rem;
+}
+.newgame{
+    font-size: 35px;
+    border-radius: 10px ;
+    padding: 10px;
+    background-color: aqua;
+    font-weight: 800;
+    font-family: sans-serif;
+}
